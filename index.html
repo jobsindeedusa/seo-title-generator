@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Product Title Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SEO-friendly Product Title Generator</h1>
+
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" placeholder="Enter product name">
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" placeholder="Enter category (e.g., Shoes, Laptop)">
+
+        <label for="features">Key Features (comma separated):</label>
+        <input type="text" id="features" placeholder="Enter features (e.g., Waterproof, 4K, Lightweight)">
+
+        <button onclick="generateTitle()">Generate Title</button>
+
+        <h2>Generated Title:</h2>
+        <p id="output"></p>
+        <button id="copyBtn" onclick="copyToClipboard()">📋 Copy Title</button>
+
+        <br><br>
+        <button id="toggleTheme">🌓 Toggle Orange Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

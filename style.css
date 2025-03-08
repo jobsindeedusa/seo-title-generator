@@ -1,0 +1,85 @@
+/* Default Theme */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e07b00;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#output {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    padding: 10px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+
+#copyBtn {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Orange Mode */
+.orange-mode {
+    background-color: #2d1e0f;
+    color: #ffcc80;
+}
+
+.orange-mode .container {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.orange-mode button {
+    background-color: #e07b00;
+}
